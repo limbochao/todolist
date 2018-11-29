@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    width: 450;
+    padding: 10;
+    margin: 10px auto;
+    background-color: wheat;
+}

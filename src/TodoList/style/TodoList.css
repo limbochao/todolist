@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todoList {
+    width: 450px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: wheat;
+}

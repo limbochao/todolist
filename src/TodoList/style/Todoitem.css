@@ -1,0 +1,29 @@
+.todoItem {
+    width: 400px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0;
+}
+
+.todoItem:first-child {
+    margin-top: 0;
+}
+
+.todoItem * {
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.todoItem input {
+    width: 30px;
+    height: 100%;
+}
+
+.todoItem .name {
+    flex-grow: 1;
+    text-align: left;
+}
